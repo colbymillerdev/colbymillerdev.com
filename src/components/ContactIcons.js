@@ -6,7 +6,7 @@ import { FaGithub } from 'react-icons/fa';
 import { FaLinkedinIn } from 'react-icons/fa';
 import { GoMail } from 'react-icons/go';
 import { GoFile } from 'react-icons/go';
-import ResumePDF from '../../files/ColbyMillerResume.pdf';
+import ResumePDF from '../../files/ColbyMillerResume_Online.pdf';
 
 const IconWrapper = styled.div`
   text-align: center;
