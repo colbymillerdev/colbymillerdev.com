@@ -23,6 +23,13 @@ module.exports = {
         theme_color: config.themeColor,
         display: 'standalone'
       }
+    },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: config.googleAnalyticsID,
+        head: true
+      }
     }
   ]
 };

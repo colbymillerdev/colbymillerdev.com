@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import { OutboundLink } from 'gatsby-plugin-google-analytics';
 
 import { FaMedium } from 'react-icons/fa';
 import { FaGithub } from 'react-icons/fa';
@@ -20,7 +21,7 @@ const IconWrapper = styled.div`
   }
 `;
 
-const Icon = styled.a`
+const Icon = styled(OutboundLink)`
   &:hover {
     color: ${props => props.iconColor};
   }

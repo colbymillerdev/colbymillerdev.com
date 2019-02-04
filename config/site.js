@@ -10,7 +10,7 @@ module.exports = {
   siteDescription: 'Software Development Portfolio',
   author: 'Colby Miller', // Author for schema.org JSONLD
 
-  //  googleAnalyticsID: '',
+  googleAnalyticsID: 'UA-133632870-1',
 
   backgroundColor: '#4c4c4e',
   themeColor: '#fff',
