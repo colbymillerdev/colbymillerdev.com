@@ -36,13 +36,13 @@ const Wrapper = styled.div`
   & h1 {
     margin-top: 20px;
     margin-bottom: 10px;
-    font-size: 85px;
+    font-size: 90px;
     letter-spacing: 2px;
   }
 
   & p {
     margin-top: 0px;
-    font-size: 20px;
+    font-size: 16px;
   }
 `;
 
