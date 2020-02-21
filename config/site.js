@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 module.exports = {
   pathPrefix: '/', // Prefix for all links. If you deploy your site to example.com/portfolio your pathPrefix should be "portfolio"
 
@@ -10,7 +12,7 @@ module.exports = {
   siteDescription: 'Software Development Portfolio',
   author: 'Colby Miller', // Author for schema.org JSONLD
 
-  googleAnalyticsID: '***REMOVED***',
+  googleAnalyticsID: process.env.GA_TRACKING_ID,
 
   backgroundColor: '#4c4c4e',
   themeColor: '#fff',
