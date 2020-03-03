@@ -16,7 +16,7 @@ const GlobalStyle = createGlobalStyle`
     width: 100%;
   }
   body {
-    background: url("${bgImg}") no-repeat;
+    background: url("${bgImg}") no-repeat fixed;;
     background-size: cover;
     display: table-cell;
     vertical-align: middle;
