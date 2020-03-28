@@ -9,5 +9,6 @@ exports.onRenderBody = ({ setHtmlAttributes, setHeadComponents }) => {
       name="description"
       content="Experienced software engineer with a passion for full stack web and mobile development!"
     />,
+    <meta charSet="utf-8" />,
   ]);
 };

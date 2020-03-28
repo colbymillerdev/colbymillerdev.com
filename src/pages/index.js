@@ -9,7 +9,6 @@ import PersonalInfo from '../components/PersonalInfo';
 export default () => (
   <Layout>
     <Helmet>
-      <meta charSet="utf-8" />
       <title>Colby Miller</title>
     </Helmet>
     <ProfilePic />
