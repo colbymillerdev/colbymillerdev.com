@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import ProfessionalPic from '../../assets/ProfessionalPic.jpg';
+import ProfessionalPic from '../assets/ProfessionalPic.png';
 
 const CircleImage = styled.div`
     width: 300px;

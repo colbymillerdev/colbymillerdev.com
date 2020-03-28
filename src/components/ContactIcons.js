@@ -29,19 +29,47 @@ const Icon = styled(OutboundLink)`
 
 const ContactIcons = () => (
   <IconWrapper>
-    <Icon iconColor="#0077b5" title="LinkedIn" href="https://www.linkedin.com/in/colbymillerdev" target="_blank">
+    <Icon
+      iconColor="#0077b5"
+      title="LinkedIn"
+      href="https://www.linkedin.com/in/colbymillerdev"
+      target="_blank"
+      rel="noopener"
+    >
       <FaLinkedinIn size={'3em'} />
     </Icon>
-    <Icon iconColor="#333" title="GitHub" href="https://github.com/colbymillerdev" target="_blank">
+    <Icon
+      iconColor="#333"
+      title="GitHub"
+      href="https://github.com/colbymillerdev"
+      target="_blank"
+      rel="noopener"
+    >
       <FaGithub size={'3em'} style={{}} />
     </Icon>
-    <Icon iconColor="#00ab6c" title="Medium" href="https://medium.com/@colbymiller" target="_blank">
+    <Icon
+      iconColor="#00ab6c"
+      title="Medium"
+      href="https://medium.com/@colbymiller"
+      target="_blank"
+      rel="noopener"
+    >
       <FaMedium size={'3em'} />
     </Icon>
-    <Icon iconColor="#9c3c38" title="Resume" href={ResumePDF} target="_blank">
+    <Icon
+      iconColor="#9c3c38"
+      title="Resume"
+      href={ResumePDF}
+      target="_blank"
+      rel="noopener"
+    >
       <GoFile size={'3em'} />
     </Icon>
-    <Icon iconColor="#0072c6" title="hello@colbymillerdev.com" href="mailto:hello@colbymillerdev.com">
+    <Icon
+      iconColor="#0072c6"
+      title="hello@colbymillerdev.com"
+      href="mailto:hello@colbymillerdev.com"
+    >
       <GoMail size={'3em'} />
     </Icon>
   </IconWrapper>

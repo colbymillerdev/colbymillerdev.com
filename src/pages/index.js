@@ -10,11 +10,7 @@ export default () => (
   <Layout>
     <Helmet>
       <meta charSet="utf-8" />
-      <title>Colby Miller | Software Engineer</title>
-      <meta
-        name="description"
-        content="Software Engineer with a passion for full stack web/mobile development!"
-      />
+      <title>Colby Miller</title>
     </Helmet>
     <ProfilePic />
     <PersonalInfo />

@@ -1,8 +1,8 @@
 import React from 'react';
 import styled, { createGlobalStyle } from 'styled-components';
 
-import bgImg from '../../assets/bg.png';
-import CustFont from '../../assets/fonts/Montserrat/Montserrat-Thin.ttf';
+import bgImg from '../assets/bg.png';
+import CustFont from '../assets/fonts/Montserrat/Montserrat-Thin.ttf';
 
 const GlobalStyle = createGlobalStyle`
   @font-face {
