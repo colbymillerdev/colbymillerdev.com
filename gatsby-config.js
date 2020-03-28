@@ -5,7 +5,7 @@ module.exports = {
   siteMetadata: {
     title: 'Colby Miller',
     description:
-      'Personal website for Colby Miller, an experienced software engineer. Focusing on Full Stack Web/Mobile development!',
+      'Experienced software engineer with a passion for full stack web and mobile development!',
     author: 'Colby Miller',
     siteUrl: 'https://colbymillerdev.com',
   },
@@ -18,7 +18,7 @@ module.exports = {
         name: 'Colby Miller',
         short_name: 'Colby Miller',
         description:
-          'Personal website for Colby Miller, an experienced software engineer. Focusing on Full Stack Web/Mobile development!',
+          'Experienced software engineer with a passion for full stack web and mobile development!',
         lang: `en`,
         start_url: '/',
         background_color: '#4c4c4e',
