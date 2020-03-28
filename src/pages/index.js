@@ -9,7 +9,7 @@ import PersonalInfo from '../components/PersonalInfo';
 export default () => (
   <Layout>
     <Helmet>
-      <title>Colby Miller</title>
+      <title>Colby Miller - Software Engineer</title>
     </Helmet>
     <ProfilePic />
     <PersonalInfo />

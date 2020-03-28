@@ -11,17 +11,33 @@ import ResumePDF from '../../files/ColbyMillerResume_WebVersion.pdf';
 
 const IconWrapper = styled.div`
   text-align: center;
-  margin-top: 3em;
+  margin-top: 2em;
+
+  @media (max-width: 425px) {
+    margin-top: 1em;
+  }
 
   & a {
     color: white;
     text-decoration: none;
-    margin-left: 2%;
-    margin-right: 2%;
+    margin-left: 1.75%;
+    margin-right: 1.75%;
   }
 `;
 
 const Icon = styled(OutboundLink)`
+  @media (max-width: 768px) {
+    font-size: 14px;
+  }
+
+  @media (max-width: 425px) {
+    font-size: 10px;
+  }
+
+  @media (max-width: 375px) {
+    font-size: 8px;
+  }
+
   &:hover {
     color: ${props => props.iconColor};
   }

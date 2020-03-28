@@ -2,18 +2,18 @@ import React from 'react';
 import styled from 'styled-components';
 
 const Title = styled.h1`
-  font-size: 80px;
+  font-size: 80px !important;
 
   @media (max-width: 768px) {
-    font-size: 50px;
+    font-size: 50px !important;
   }
 
   @media (max-width: 425px) {
-    font-size: 40px;
+    font-size: 40px !important;
   }
 
   @media (max-width: 375px) {
-    font-size: 35px;
+    font-size: 35px !important;
   }
 `;
 
