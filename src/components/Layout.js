@@ -27,7 +27,7 @@ const GlobalStyle = createGlobalStyle`
 const Wrapper = styled.div`
   color: #fff;
   text-align: center;
-  max-width: 600px;
+  max-width: 800px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 50px;
@@ -36,7 +36,6 @@ const Wrapper = styled.div`
   & h1 {
     margin-top: 20px;
     margin-bottom: 10px;
-    font-size: 90px;
     letter-spacing: 2px;
   }
 
@@ -47,10 +46,10 @@ const Wrapper = styled.div`
 `;
 
 const Layout = ({ children }) => (
-  <React.Fragment>
+  <>
     <GlobalStyle />
     <Wrapper>{children}</Wrapper>
-  </React.Fragment>
+  </>
 );
 
 export default Layout;

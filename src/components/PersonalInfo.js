@@ -1,10 +1,15 @@
 import React from 'react';
+import styled from 'styled-components';
+
+const Title = styled.h1`
+  font-size: 90px;
+`;
 
 const PersonalInfo = () => (
-  <React.Fragment>
-    <h1>Colby Miller</h1>
+  <>
+    <Title>Colby Miller</Title>
     <p>Software Engineer 💻 Full Stack Developer 🤓 Always Learning 🚀</p>
-  </React.Fragment>
+  </>
 );
 
 export default PersonalInfo;
