@@ -28,6 +28,7 @@ module.exports = {
         crossOrigin: `use-credentials`,
       },
     },
+    'gatsby-plugin-offline',
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
