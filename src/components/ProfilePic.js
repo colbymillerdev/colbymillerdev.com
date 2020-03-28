@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import ProfessionalPic from '../assets/ProfessionalPic.png';
+import Headshot from '../assets/headshot.png';
 
 const CircleImage = styled.div`
     width: 300px;
@@ -9,7 +9,7 @@ const CircleImage = styled.div`
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
-    background: url("${ProfessionalPic}") no-repeat;
+    background: url("${Headshot}") no-repeat;
     background-size: cover;
     background-position: 50% 30%;
     margin-right: auto;
