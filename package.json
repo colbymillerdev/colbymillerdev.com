@@ -1,7 +1,7 @@
 {
   "name": "colbymillerdev.com",
   "description": "Personal website for my software development related material.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Colby Miller",
   "license": "MIT",
   "scripts": {
