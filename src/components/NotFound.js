@@ -36,7 +36,12 @@ const SubTitle = styled.h2`
 const ProfilePic = () => (
   <>
     <Title>Page not found</Title>
-    <SubTitle>Oops! We're having trouble locating that page 😢</SubTitle>
+    <SubTitle>
+      Oops! We're having trouble locating that page
+      <span role="img" aria-label="emoji">
+        😢
+      </span>
+    </SubTitle>
   </>
 );
 

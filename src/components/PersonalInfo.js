@@ -8,7 +8,20 @@ const Title = styled.h1`
 const PersonalInfo = () => (
   <>
     <Title>Colby Miller</Title>
-    <p>Software Engineer 💻 Full Stack Developer 🤓 Always Learning 🚀</p>
+    <p>
+      Software Engineer
+      <span role="img" aria-label="emoji">
+        💻
+      </span>
+      Full Stack Developer
+      <span role="img" aria-label="emoji">
+        🤘
+      </span>
+      Always Learning
+      <span role="img" aria-label="emoji">
+        🚀
+      </span>
+    </p>
   </>
 );
 
