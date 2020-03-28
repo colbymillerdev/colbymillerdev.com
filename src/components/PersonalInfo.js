@@ -9,15 +9,15 @@ const PersonalInfo = () => (
   <>
     <Title>Colby Miller</Title>
     <p>
-      Software Engineer
+      Software Engineer{' '}
       <span role="img" aria-label="emoji">
         💻
-      </span>
+      </span>{' '}
       Full Stack Developer
       <span role="img" aria-label="emoji">
         🤘
       </span>
-      Always Learning
+      Always Learning{' '}
       <span role="img" aria-label="emoji">
         🚀
       </span>
