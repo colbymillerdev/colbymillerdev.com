@@ -1,13 +1,13 @@
-const config = require('./config/site');
+// const config = require('./config/site');
+require('dotenv').config();
 
 module.exports = {
-  pathPrefix: config.pathPrefix,
   siteMetadata: {
-    title: config.siteTitle,
-    description: config.siteDescription,
-    author: config.authorName,
-    siteUrl: config.siteUrl + config.pathPrefix,
-    ...config
+    title: 'Colby Miller',
+    description:
+      'Personal website for Colby Miller, an experienced software engineer. Focusing on Full Stack Web/Mobile development!',
+    author: 'Colby Miller',
+    siteUrl: 'https://colbymillerdev.com',
   },
   plugins: [
     `gatsby-plugin-styled-components`,
@@ -15,21 +15,25 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
-        name: config.siteTitle,
-        short_name: config.siteTitleShort,
-        description: config.siteDescription,
-        start_url: config.pathPrefix,
-        background_color: config.backgroundColor,
-        theme_color: config.themeColor,
-        display: 'standalone'
-      }
+        name: 'Colby Miller',
+        short_name: 'Colby Miller',
+        description:
+          'Personal website for Colby Miller, an experienced software engineer. Focusing on Full Stack Web/Mobile development!',
+        lang: `en`,
+        start_url: '/',
+        background_color: '#4c4c4e',
+        theme_color: '#fff',
+        display: 'standalone',
+        icon: 'src/assets/site_icon.png',
+        crossOrigin: `use-credentials`,
+      },
     },
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: config.googleAnalyticsID,
-        head: true
-      }
-    }
-  ]
+        trackingId: process.env.GA_TRACKING_ID,
+        head: true,
+      },
+    },
+  ],
 };
